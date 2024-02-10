@@ -1,3 +1,56 @@
-#first {
-    margin-left: 100px;
-}
+.user-list-container {
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+  }
+
+  .user-list-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .user-list-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-list-container th,
+  .user-list-container td {
+    border: 3px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    margin: 4px;
+  }
+  
+  .user-list-container th {
+    background-color: #fff;
+  }
+  
+  .user-list-container tbody tr:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  .user-list-container button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .user-list-container button:hover {
+    color: red;
+  }
+  
+  .user-list-container tbody tr:hover {
+    background-color: #fff; 
+  }
+  
+
+  img{
+    width: 70px; 
+    height: 50px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 7px;
+  }
+
+ 
